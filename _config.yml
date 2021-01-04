@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Anshuman
+twitter_username: @AnshumanSabath
+name: Anshuman Sabath
 
 # Build settings
 markdown: kramdown
@@ -12,7 +12,7 @@ primarylinks:
  - title: Blog
    url: https://automateddeveloper.blogspot.com/
  - title: GitHub
-   url: https://github.com/robhinds
+   url: https://github.com/data-hound
  - title: StackOverflow
    url: https://stackoverflow.com/users/258813/rhinds
  - title: DZone
@@ -22,24 +22,12 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Scala
- - Akka-http
- - Microservices
- - Slick
- - Product management
- - API design
- - Groovy
- - Spring MVC/Boot/Social
- - Gradle
- - Java
- - JPA
- - SQL
- - REST
- - Technical Architecture
  - Machine learning
+ - Deep Learning
+ - Human Computer Interfaces
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
+#blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 #Work experience is required
 roles:
