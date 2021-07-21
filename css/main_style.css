@@ -17,7 +17,7 @@ table {
 .overlay {
   display:none;
   position:absolute;
-  background:#99e6ff; 
+  background:#fff; 
 }
 .img-load {
   position:absolute;
