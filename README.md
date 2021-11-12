@@ -1,7 +1,7 @@
 # Anshuman Sabath
 
 ## About Me
-Hi. I am Anshuman Sabath. I am a Software Enginner aspiring to be a researcher. My broad interests in research lie in working at the intersection of Neuroscience and Machine Learning to understatnd the processes that lead to emergence of intelligence in natural and artificial networks. I am also passionate about developing assistive intelligence solutions that better help in diagnosis and treatment of medical conditions and diseases.
+Hi. I am Anshuman Sabath. I am a Software Enginner aspiring to be a researcher. My broad interests in research lie in working at the intersection of Neuroscience and Machine Learning to understatnd the processes that lead to emergence of intelligence in natural and artificial networks. I am also passionate about developing assistive intelligence solutions that better help in diagnosis and treatment of medical conditions and diseases. I am an incoming Research Assistant at [Duke BME](https://www.tdunnlab.org/) 
 
 ### Research Statement
 My interest in understanding intelligence in artificial and natural (brain) neural networks stems from a belief that fundamentally similar laws of nature would be at play that leads to this emergent behavior from a network arrangement of simple processing units (perceptrons/neurons). Also, I firmly believe that one of the best uses of the advancements in artificial neural network design would be the application of such intelligence to add to the capabilities of human investigators into intelligence, and hence help unravel deeper mysteries about the functioning of the brain. Such discoveries could also subsequently lead to developing better neural networks, forming a positive feedback loop, and rapidly increasing understanding of intelligence. 
