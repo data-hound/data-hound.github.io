@@ -8,7 +8,7 @@ My interest in understanding intelligence in artificial and natural (brain) neur
 
 With the sophisticated artificial neural networks which have outperformed their human counterparts in some tasks, having a better understanding of how the network effects operate in such networks to engender intelligent behavior could also potentially provide a simulatory test bed which we can poke and prod to figure out how the natural neural networks work, and what and what not could work. With sufficient maturity, I believe the artificial neural networks also have the potential to be developed into replacements for natural neural networks for patients that suffer from brain damage due to any reason. 
 
-[CV](https://data-hound.github.io/online-cv/)
+#### [Resume](https://data-hound.github.io/online-cv/) | [CV] (https://docs.google.com/document/d/11fwXLK93DfpLb-akzb7AN28OY-Mez0KyJQu0LEp2DwE/edit?usp=sharing)
 
 ## Detailed Bio
 
