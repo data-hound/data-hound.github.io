@@ -1,25 +1,31 @@
-# Anshuman Sabath
+A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
-## About Me
-Hi. I am Anshuman Sabath. I am a Software Enginner aspiring to be a (computational) neuroscientist. My broad interests in research lie in working at the intersection of Neuroscience and Machine Learning to understatnd the processes that lead to emergence of intelligence in natural and artificial networks. I am also passionate about developing assistive intelligence solutions that better help in diagnosis and treatment of medical conditions and diseases. Currently, I am a Research Assistant at [Duke BME](https://www.tdunnlab.org/) 
+I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
-### Research Statement
-My interest in understanding intelligence in artificial and natural (brain) neural networks stems from a belief that fundamentally similar laws of nature would be at play that leads to this emergent behavior from a network arrangement of simple processing units (perceptrons/neurons). Also, I firmly believe that one of the best uses of the advancements in artificial neural network design would be the application of such intelligence to add to the capabilities of human investigators into intelligence, and hence help unravel deeper mysteries about the functioning of the brain. Such discoveries could also subsequently lead to developing better neural networks, forming a positive feedback loop, and rapidly increasing understanding of intelligence. 
+### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
-With the sophisticated artificial neural networks which have outperformed their human counterparts in some tasks, having a better understanding of how the network effects operate in such networks to engender intelligent behavior could also potentially provide a simulatory test bed which we can poke and prod to figure out how the natural neural networks work, and what and what not could work. With sufficient maturity, I believe the artificial neural networks also have the potential to be developed into replacements for natural neural networks for patients that suffer from brain damage due to any reason. 
+# Instructions
 
-#### [Resume](https://data-hound.github.io/online-cv/) | [CV](https://docs.google.com/document/d/11fwXLK93DfpLb-akzb7AN28OY-Mez0KyJQu0LEp2DwE/edit?usp=sharing) | [Publications](https://scholar.google.com/citations?user=1lreUUQAAAAJ&hl=en)
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-## Detailed Bio
+See more info at https://academicpages.github.io/
 
-### School Time Research
-My first exposure to informal research was during my early teens, when I started a science blog which had international viewership during my school days, where we reviewed the latest science and technology trends. For one of my most notable group endeavors during this period, I collaborated with 10 of my peers, to research and draft a proposal for an extraplanetary settlement (Cosmosville) for the NASA Ames Space Settlement Contest, which even bagged us a [third prize](https://space.nss.org/settlement/nasa/Contest/Results/2012/index.html). By this time I had grown to enjoy the research that went into studying and calculating factors like the radiation energy density at different points in solar system, where to assemble the settlement, how big should it be, how to maintain gravity, etc., I also came to truly develop an eye for detail, which proved to be key requirement in pursuing a career in research.
+## To run locally (not on GitHub Pages, to serve on your own computer)
 
-### Cellular Networks Stint
-In my sophomore year, I found myself fascinated with network effects and started a study on cellular networks, which was an advanced topic for a sophomore. My studies into cellular networks revealed a niche technological problem in small cells. Thus, during my sophomore year I formulated a research problem around the design of neutral host small cell and led a team of 4 to present it in Machinor, a research promotion event at [MNNIT](http://mnnit.ac.in/) where we won the first prize and were allocated some research budget and a faculty mentor from [DIC](http://mnnit.ac.in/dic2020/). For the next year, I was associated with the DCN lab of [MNNIT](http://mnnit.ac.in/) for this project, under the supervision of Dr. Arun Prakash, where I conducted research  extensively on tools for modelling network devices, device prototyping methods, cellular network analysis, and signal processing involved in all the different generations of cellular technology, exploring MATLAB, QualNet, NS3, and SystemVue softwares.  During my research into cellular technology, I also encountered numerous applications of reinforcement learning in routing techniques and antenna design. This further piqued my interest into the domain of Machine Intelligence.
+1. Clone the repository and made updates as detailed above
+1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
+1. Run `bundle clean` to clean up the directory (no need to run `--force`)
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
-### Innovation Club, MNNIT
-My interest in understanding the origins of innovation and creativity also led me to gravitate towards people and activities that catered to this aspect which I had considered as an informal experiment. I became deeply involved with the [Entrepreneurship Cell](https://ecellmnnit.com/renaissance/) at MNNIT, where I helped aspiring startup founders with their market research, competition analysis, and brainstorming alternative solutions. I enjoyed this engagement involving multidimensional critical thinking. Keeping with the spirit of spreading new ideas, I was also part of the organizing team of [TEDxMNNIT](https://www.ted.com/tedx/events/25918) as a curator, where we had talks from scientists like Moumita Dutta from ISRO. In the same spirit, in my pre-final year, I also founded the Innovation Club where I tried to put my learnings from Tina Seelig's [InGenius](https://www.goodreads.com/book/show/12028902-ingenius) to work, by trying to teach the creative process. Later, this club was formalized into the [Institute Innovation Council](http://mnnit.ac.in/iip/iic/index.html), where I served as the student president during my final year.
+# Changelog -- bugfixes and enhancements
 
-### Current Engagement
-In preparation to transition into a full-time career in research as a graduate student, I have joined [t.dunn lab](https://www.tdunnlab.org/) under the guidance of Prof Timothy Dunn as a Research Assistant, where I am involved in model tuning for an open source tool, DANNCE, which estimates 3D poses for rodents. The applications for the tool have been envisioned to be into constructing better behavioral models for rodents and in the process enable better understanding of the brain.  
+There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+
+To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
