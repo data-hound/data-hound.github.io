@@ -3,7 +3,7 @@ title: "Performance Analysis of Supervised Machine Learning Algorithms for Epile
 collection: publications
 permalink: /publication/2019-11-ieeexplore_ieee_org_document_8980115
 date: 10-11-2019
-venue: ''
+venue: '2019 International Conference on Electrical, Electronics and Computer Engineering (UPCON)'
 paperurl: 'https://ieeexplore.ieee.org/document/8980115/'
 citation: 'https://ieeexplore.ieee.org/document/8980115/'
 ---
