@@ -36,6 +36,10 @@ Research experience
   * Developed novel scientometrics to combat inequities in academic publishing through precise contribution tracking
   * Developing novel representations of the academic publishing system
 
+* **Senior Graduate Fellow (2025 - present), Junior Fellow (2024 - 2025), Duke Office of Translation and Commercialization (OTC)**
+  * Conduct technology assessments of software and AI-related invention disclosures
+  * Mentor Junior Fellows
+
 * **Associate in Research, Dunn Lab, Duke University**, Feb 2022 - Aug 2023
   * Exhaustive hyper-parameter search for DANNCE on a novel behavioral arena
   * Explored how add-ons to the DANNCE U-Net architecture influence prediction power
