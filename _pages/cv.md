@@ -13,8 +13,6 @@ Career profile
 ======
 I am a researcher with a passion for tackling problems at the intersection of AI and neuroscience. Currently, I am focusing on depression models in rodents, extending computer vision tools from the lab to distinguish between control and diseased conditions. I leverage my background in cellular communication and software engineering to approach the neurobiology of depression and form an understanding of its aspects that impact affect.
 
-* [LinkedIn](https://linkedin.com/in/anshuman-sabath-045aa045/) | [GitHub](https://github.com/data-hound)
-
 Education
 ======
 * **Ph.D. Candidate, Biomedical Engineering**, Duke University, Durham, USA, 2023 - present (GPA 3.86)
