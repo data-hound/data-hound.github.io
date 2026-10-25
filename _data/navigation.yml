@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: https://data-hound.github.io/online-cv/ #This online cv is maintained in a separate repository as of 2025-11-08
+    url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/
