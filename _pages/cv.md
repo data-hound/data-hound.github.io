@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+Career profile
+======
+I am a researcher with a passion for tackling problems at the intersection of AI and neuroscience. Currently, I am focusing on depression models in rodents, extending computer vision tools from the lab to distinguish between control and diseased conditions. I leverage my background in cellular communication and software engineering to approach the neurobiology of depression and form an understanding of its aspects that impact affect.
+
+* [LinkedIn](https://linkedin.com/in/anshuman-sabath-045aa045/) | [GitHub](https://github.com/data-hound)
+
 Education
 ======
 * **Ph.D. Candidate, Biomedical Engineering**, Duke University, Durham, USA, 2023 - present (GPA 3.86)
@@ -71,6 +77,34 @@ Service and leadership
 * Curator, TEDxMNNIT 2018
 * E-Cell MNNIT: Content Team Lead, Networking Team Member, Convener and Startup Mentor, 2016-2018
 * Mentored 3 high-school students across 2 DUNE program years
+
+Certifications
+======
+LinkedIn Learning, 2021 (no expiry):
+
+* Become a Data Scientist
+* Get Ahead in Data Science
+* Data Science Foundations: Fundamentals
+* Processing Text with Python Essential Training
+* Predictive Modeling Strategy at Scale
+
+Skills
+======
+* Machine learning, supervised learning, NLP, LLMs and RAG, data analytics, data science
+* 3D pose estimation (DANNCE), computer vision, calcium imaging analysis
+* Oracle Database and Data Guard, Oracle Enterprise Manager
+* Python
+
+Additional projects
+======
+* **Intruder Detection system for Crop Fields:** trained a CNN on an augmented image dataset to detect cattle against a crop field background, with empty crop fields as the control dataset
+* **Review Sentiment Analysis**
+* **VideoToonification:** a Python script to convert a video into a cartoon version
+
+Languages and interests
+======
+* Languages: English (professional), Hindi (professional), Odia (native)
+* Interests: reading, writing, digital art
 
 Awards
 ======
