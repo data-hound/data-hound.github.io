@@ -3,7 +3,7 @@ title: "Detecting Depression with DANNCE"
 collection: talks
 type: "Mentored student presentation"
 permalink: /talks/2024-01-01-detecting-depression-dannce
-venue: "Duke University (mentored student project) 2024"
+venue: "Duke University Neuroscience Experience (DUNE) program 2024"
 date: 2024-01-01
 location: "Duke University, Durham, NC"
 ---
