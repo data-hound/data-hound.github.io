@@ -1,30 +1,36 @@
 ---
 layout: single
-title: "Facial expression clusters after LPS"
+# title: "Facial expression clusters after LPS"
+title: "Cluster video"
 permalink: /clusters/
-excerpt: "Video examples of facial expression clusters, with Face-DANNCE keypoints driving a 3D mouse-head model."
+# excerpt: "Video examples of facial expression clusters, with Face-DANNCE keypoints driving a 3D mouse-head model."
+excerpt: ""
 author_profile: true
 ---
 
+{% comment %}
 <p>Face-DANNCE keypoints drive a 3D mouse-head model to visualize facial expression clusters. Watch the reel below for examples from LPS and control conditions.</p>
+{% endcomment %}
 
 <figure style="margin: 1.5em 0;">
   <video controls playsinline preload="none"
-         poster="{{ '/assets/videos/clusters/title_card.png' | relative_url }}"
-         aria-label="Facial expression cluster examples after LPS and in controls"
-         aria-describedby="cluster-video-caption"
+         aria-label="Cluster video"
          style="display: block; width: 100%; height: auto; background: #121416; border-radius: 6px;">
     <source src="{{ '/assets/videos/clusters/presentation_reel.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support embedded video. <a href="{{ '/assets/videos/clusters/presentation_reel.mp4' | relative_url }}">Open the MP4 video</a>.
   </video>
+  {% comment %}
   <figcaption id="cluster-video-caption">Example bouts are shown at half speed. Use the player controls to pause, seek, or view fullscreen.</figcaption>
+  {% endcomment %}
 </figure>
 
+{% comment %}
 <h2>Clusters in the reel</h2>
 <ul>
   <li><strong>Clusters 52, 41, and 12:</strong> more frequent after LPS.</li>
   <li><strong>Clusters 29 and 15:</strong> more frequent in controls.</li>
 </ul>
 <p>The cluster groups compare LPS timepoint 2 with baseline, as described in the reel.</p>
+{% endcomment %}
 
 <p><a class="btn btn--primary" href="{{ '/assets/videos/clusters/presentation_reel.mp4' | relative_url }}" download>Download video (MP4, 24 MB)</a></p>
