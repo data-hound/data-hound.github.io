@@ -6,6 +6,9 @@ main:
   - title: "Talks"
     url: /talks/
 
+  - title: "Cluster video"
+    url: /clusters/
+
   # - title: "Teaching"
   #   url: /teaching/    
     
