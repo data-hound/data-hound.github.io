@@ -71,6 +71,7 @@ Manuscripts in preparation
 ======
 * A ST3DIO to standardize open-field behavior
 * 3D tracking of freely-moving rodent facial expressions with f-DANNCE
+* Nura Brimo, Anshuman Sabath, Hassan Harb, Emir Baki Denkbaş, Marina Ayad, Mikhail A. Nikiforov, Christoph Schmidt, Issam El Naqa, "RECAST: sequential decision-making that guides the molecular work-up of glioma to a WHO-supported diagnosis"
 
 Service and leadership
 ======
