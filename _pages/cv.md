@@ -116,5 +116,5 @@ Awards
 * 3rd Position, B-Plan Competition, Kshitij 2019, IIT-Kharagpur
 * 2nd Position, Logical Rhythms Machine Learning Competition, Avishkar 2017, MNNIT
 * 1st Position and DIIC funding for neutral host femtocell design, Avishkar 2016, MNNIT
-* 3rd Prize, NASA Ames Space Settlement Design Contest 2012 (Cosmosville)
 * Selected for KVPY fellowship, 2014
+* 3rd Prize, NASA Ames Space Settlement Design Contest 2012 (Cosmosville)
