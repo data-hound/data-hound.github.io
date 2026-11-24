@@ -8,4 +8,4 @@ date: 2026-10-23
 location: "Orlando, FL"
 ---
 
-Authors: A. Sabath (presenter), D. Zalles, Y. Shi, J. Wu, R.-Z. Zhan, T. W. Dunn. Presented October 23, 2026. Meeting dates: October 21-24, 2026.
+Authors: A. Sabath (presenter), A. Izquierdo, D. Zalles, Y. Shi, J. Wu, R.-Z. Zhan, T. W. Dunn. Presented October 23, 2026. Meeting dates: October 21-24, 2026.
