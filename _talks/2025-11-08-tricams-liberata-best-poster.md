@@ -8,6 +8,6 @@ date: 2025-11-08
 location: "NC State University, Raleigh, NC"
 ---
 
-Presented by Chuying Huo, mentored by Anshuman Sabath. Awarded Best Poster. TriCAMS 2025, November 8-9, 2025.
+Authors: Chuying Huo (presenter), Han Zhang, Anshuman Sabath, Timothy W. Dunn, L. Catherine Brinson. Awarded Best Poster. TriCAMS 2025, November 8-9, 2025.
 
 [Poster abstracts](https://stsynkov.math.ncsu.edu/tricams2025/files/TriCAMS_2025_Poster_Abstracts.pdf)
