@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -11,6 +11,27 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% assign all_talks = site.talks | sort: 'date' | reverse %}
+
+<h2 class="archive__subtitle">Talks</h2>
+{% for post in all_talks %}
+  {% if post.type contains 'Oral' %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+<h2 class="archive__subtitle">Posters</h2>
+{% for post in all_talks %}
+  {% unless post.type contains 'Mentored' %}
+    {% if post.type contains 'Poster' %}
+      {% include archive-single-talk.html %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+<h2 class="archive__subtitle">Mentored student presentations</h2>
+{% for post in all_talks %}
+  {% if post.type contains 'Mentored' %}
+    {% include archive-single-talk.html %}
+  {% endif %}
 {% endfor %}

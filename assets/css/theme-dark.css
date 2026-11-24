@@ -137,3 +137,9 @@ html[data-theme="dark"] #theme-toggle:hover { border-color: #7cc4dc; }
 @media print {
   #theme-toggle { display: none; }
 }
+
+/* icons that are black by default in the sidebar */
+html[data-theme="dark"] .author__urls .fa-github,
+html[data-theme="dark"] .author__urls .fa-map-marker,
+html[data-theme="dark"] .page__footer-follow .fa-github { color: #d3d6d9; }
+html[data-theme="dark"] .archive__subtitle { color: #eceef0; border-bottom-color: #2a2f33; }
