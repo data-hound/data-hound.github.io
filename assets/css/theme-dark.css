@@ -1,0 +1,139 @@
+/* Dark theme overrides. Applied when <html data-theme="dark">; set by the toggle in _includes/masthead.html. */
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  background-color: #121417;
+}
+
+html[data-theme="dark"] body {
+  color: #d3d6d9;
+  background-color: #121417;
+}
+
+html[data-theme="dark"] ::selection { color: #121417; background: #7cc4dc; }
+html[data-theme="dark"] ::-moz-selection { color: #121417; background: #7cc4dc; }
+
+html[data-theme="dark"] a { color: #7cc4dc; }
+html[data-theme="dark"] a:hover { color: #a8dcec; }
+html[data-theme="dark"] u a,
+html[data-theme="dark"] ins a { color: inherit; }
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .author__name {
+  color: #eceef0;
+}
+
+html[data-theme="dark"] .archive__item-title a,
+html[data-theme="dark"] .archive__item-title a:hover { color: inherit; }
+
+/* header */
+html[data-theme="dark"] .masthead { border-bottom-color: #2a2f33; }
+html[data-theme="dark"] .greedy-nav { background: #121417; }
+html[data-theme="dark"] .greedy-nav a { color: #d3d6d9; }
+html[data-theme="dark"] .greedy-nav a:hover { color: #7cc4dc; }
+html[data-theme="dark"] .greedy-nav button { background-color: #3a3f44; }
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  background: #1b1f23;
+  border-color: #2a2f33;
+}
+html[data-theme="dark"] .greedy-nav .hidden-links:before { border-color: #2a2f33 transparent; }
+html[data-theme="dark"] .greedy-nav .hidden-links:after { border-color: #1b1f23 transparent; }
+
+/* sidebar */
+html[data-theme="dark"] .author__bio,
+html[data-theme="dark"] .author__urls li { color: #b4b9bd; }
+html[data-theme="dark"] .author__avatar img { border-color: #2a2f33; }
+html[data-theme="dark"] .author__urls {
+  background: #1b1f23;
+  border-color: #2a2f33;
+}
+@media (min-width: 57.8125em) {
+  html[data-theme="dark"] .author__urls { background: transparent; border: 0; }
+}
+html[data-theme="dark"] .author__urls:before { border-color: #2a2f33 transparent; }
+html[data-theme="dark"] .author__urls:after { border-color: #1b1f23 transparent; }
+html[data-theme="dark"] .btn,
+html[data-theme="dark"] .btn--inverse {
+  color: #d3d6d9;
+  background-color: #2a2f33;
+  border-color: #3a3f44;
+}
+
+/* content */
+html[data-theme="dark"] .page__meta,
+html[data-theme="dark"] .page__meta a,
+html[data-theme="dark"] .archive__item-excerpt { color: #9ba1a6; }
+html[data-theme="dark"] hr { border-top-color: #2a2f33; }
+html[data-theme="dark"] blockquote { color: #b4b9bd; border-left-color: #3a3f44; }
+
+html[data-theme="dark"] table { border-color: #3a3f44; }
+html[data-theme="dark"] th { background-color: #1b1f23; border-color: #3a3f44; }
+html[data-theme="dark"] td { border-color: #3a3f44; }
+html[data-theme="dark"] tbody tr:nth-child(even) { background-color: #171a1d; }
+
+html[data-theme="dark"] code,
+html[data-theme="dark"] p > code,
+html[data-theme="dark"] a > code,
+html[data-theme="dark"] li > code {
+  color: #d3d6d9;
+  background: #1b1f23;
+  border-color: #2a2f33;
+}
+html[data-theme="dark"] pre,
+html[data-theme="dark"] .highlight { background: #1b1f23; }
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  color: #d3d6d9;
+  background-color: #1b1f23;
+  border-color: #3a3f44;
+}
+
+/* footer */
+html[data-theme="dark"] .page__footer {
+  color: #8b9196;
+  background-color: #181b1e;
+  border-top-color: #2a2f33;
+}
+html[data-theme="dark"] .page__footer a { color: #9bd0e3; }
+html[data-theme="dark"] .page__footer-copyright { color: #8b9196; }
+
+/* theme toggle button */
+#theme-toggle {
+  position: fixed;
+  right: 1em;
+  bottom: 3.5em;
+  z-index: 100;
+  width: 2.4em;
+  height: 2.4em;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 2.2em;
+  text-align: center;
+  color: #494e52;
+  background: #fff;
+  border: 1px solid #bdc1c4;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#theme-toggle:hover { border-color: #52adc8; }
+#theme-toggle:focus-visible { outline: 2px solid #52adc8; outline-offset: 2px; }
+html[data-theme="dark"] #theme-toggle {
+  color: #eceef0;
+  background: #1b1f23;
+  border-color: #3a3f44;
+}
+html[data-theme="dark"] #theme-toggle:hover { border-color: #7cc4dc; }
+
+@media print {
+  #theme-toggle { display: none; }
+}
