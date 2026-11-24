@@ -112,7 +112,7 @@ Awards
 ======
 * 3rd Place, 2026 Dr. Robert Gillies Machine Learning Hackathon, Moffitt Cancer Center (RECAST)
 * Judges' Stars, OSI Hackathon 2026 (Open Scientific Intelligence), for LANTERN
-* Duke BME Travel Grants ($500 each) to attend BMES and SfN
+* Duke BME Travel Grants (2026, $500 each) to attend BMES and SfN
 * 3rd Position, B-Plan Competition, Kshitij 2019, IIT-Kharagpur
 * 2nd Position, Logical Rhythms Machine Learning Competition, Avishkar 2017, MNNIT
 * 1st Position and DIIC funding for neutral host femtocell design, Avishkar 2016, MNNIT
