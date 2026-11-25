@@ -50,8 +50,13 @@ Research experience
 
 Industry experience
 ======
+<!-- Previous version:
 * **Member of Technical Staff, Oracle**, Jul 2019 - Oct 2021
   * Oracle Enterprise Manager: Database High Availability, Dataguard Manageability, and Fusion Middleware plugins; Standby and Clone Creation wizards; Service Level Management offerings
+-->
+* **Member of Technical Staff, Oracle Enterprise Manager Team**, Jul 2019 - Oct 2021
+  * Maintained Enterprise Manager services for Database High Availability, Dataguard Manageability, and Fusion Middleware plugins; Standby and Clone Creation wizards; Service Level Management offerings
+  * Worked with 3+ industrial clients on time-critical projects and delivered timely and complete solutions
 
 * **YTL Networks Intern, Bharti Airtel Ltd**, May 2018 - Jul 2018
 
